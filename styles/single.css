@@ -61,14 +61,15 @@ div.main-content .next-content .box1 {
 }
 div.main-content .next-content .box1 .item1 {
     flex: 0 0 152px;
-    background-image: url('../images/item1img1.png');
-    background-repeat: no-repeat;
+    background-image: url('../video/video1.mp4');
+    /* background-repeat: no-repeat; */
     /* not be good when use both ! */
     /* background-attachment: fixed; */
-    background-size: cover;
+    /* background-size: cover; */
     /* responsive this */
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     position: relative;
+
 }
 div.main-content .next-content .box1 .item1 a img {
     max-width: 110px;
@@ -81,13 +82,16 @@ div.main-content .next-content .box1 .item1 a img {
     z-index: 1;
 }
 
-div.main-content .next-content .box1 .item1 video{
-   display: none;
-   max-width: 100%;
-   height: auto;
+div.main-content .next-content .box1 .item1 #myvideo{
+   
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
 }
 div.main-content .next-content .box1 .item1:hover{
- background-image: url('../video/video1.mp4');
+
 }
 
 div.main-content .next-content .box1 .item2 {
