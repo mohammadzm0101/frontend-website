@@ -59,7 +59,6 @@ div.main-content .next-content .box1 {
     /* end del */
     background-color: pink;
 }
-
 div.main-content .next-content .box1 .item1 {
     flex: 0 0 152px;
     background-image: url('../images/item1img1.png');
@@ -71,8 +70,7 @@ div.main-content .next-content .box1 .item1 {
     background-size: 100% 100%;
     position: relative;
 }
-
-div.main-content .next-content .box1 .item1 img {
+div.main-content .next-content .box1 .item1 a img {
     max-width: 110px;
     height: auto;
     position: absolute;
@@ -81,6 +79,15 @@ div.main-content .next-content .box1 .item1 img {
     border: white 1px solid;
     border-radius: 15px;
     z-index: 1;
+}
+
+div.main-content .next-content .box1 .item1 video{
+   display: none;
+   max-width: 100%;
+   height: auto;
+}
+div.main-content .next-content .box1 .item1:hover{
+ background-image: url('../video/video1.mp4');
 }
 
 div.main-content .next-content .box1 .item2 {
@@ -230,33 +237,34 @@ div.main-content .next-content .box1 .item4 {
 
 }
 
-div.main-content .next-content .box1 .item4 div {
+div.main-content .next-content .box1 .item4 .orange {
     background-color: #ffffff;
     border: 1px solid #dfdfdf;
     height: 35px;
-    /* text-align: center; */
+    flex: 0 0 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;   
 
 
 }
 
-div.main-content .next-content .box1 .item4 div i {
+div.main-content .next-content .box1 .item4 .orange  i {
     color: #ff6a37;
-    /* display: inline-block; */
+
+    
 
 }
 
-div.main-content .next-content .box1 .item4 div p {
-    /* display: inline-block; */
+div.main-content .next-content .box1 .item4 .orange p {
     font-size: 10pt;
+    margin-right:10px;
+    font-size: 9pt;
+    font-family: Tanha;
+    color: #666666;
+    font-weight: 500;
 }
-
-div.main-content .next-content .box1 .item4 .orange1 {}
-
-div.main-content .next-content .box1 .item4 .orange2 {}
-
-div.main-content .next-content .box1 .item4 .orange3 {}
-
-div.main-content .next-content .box1 .item4 .orange4 {}
 
 div.main-content .info-side {
     float: right;
