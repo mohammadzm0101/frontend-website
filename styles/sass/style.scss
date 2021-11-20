@@ -1,4 +1,5 @@
 @import "variables";
+@import "important-1";
 
 div.main-content .next-content .box2 h4{
     color:$myColor1;
@@ -46,9 +47,28 @@ div.main-content .next-content .box2{
             size: 16px;
             family: $myFontFamilyP;
         }
+        line-height: 3;
     }
     ul{
+        font: {
+            weight: 500;
+            family: $myFontFamilyP;
+            color: $myColor2;
+        }
+        line-height: 1;
         li{
+            
+        }
+        li::before {
+            content: ".";
+            color: $myColor3;
+            font-weight: $myFontWeight;
+            display: inline-block;
+            width: 10px;
+            margin-left: 7px;
+            font: {
+                size: 40px;
+            }
             
         }
     }

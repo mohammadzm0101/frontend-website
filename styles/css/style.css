@@ -31,6 +31,22 @@ div.main-content .next-content .box2 h6 {
   font-weight: 900;
   font-size: 16px;
   font-family: Tanha;
+  line-height: 3;
+}
+div.main-content .next-content .box2 ul {
+  font-weight: 500;
+  font-family: Tanha;
+  font-color: #666666;
+  line-height: 1;
+}
+div.main-content .next-content .box2 ul li::before {
+  content: ".";
+  color: #FF6A37;
+  font-weight: 900;
+  display: inline-block;
+  width: 10px;
+  margin-left: 7px;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
