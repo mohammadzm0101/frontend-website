@@ -1,23 +1,56 @@
-$myFontColor1: #33cccc;
-$myFontFamilyE:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-$myFontFamilyP: Tanha;
+@import "variables";
 
 div.main-content .next-content .box2 h4{
-    color: $myFontColor1;
+    color:$myColor1;
     font-family: $myFontFamilyE;
-    font-weight: 900;
+    font-weight: $myFontWeight;
 }
 div.main-content .next-content .box2 h4 span{
     font-size: 50px;
 }
 div.main-content .next-content .box2 h5{
+    font: {
+        family: $myFontFamilyP;
+    }
+    color: $myColor2;
 
     span{
         font: {
             family:$myFontFamilyE;
-            size: ;
+            size: $myFontSize1;
+            weight: $myFontWeight;
         }
 
+    }
+
+}
+div.main-content .next-content .box2{
+    p{
+        font: {
+            family:$myFontFamilyP;
+        }
+        color: $myColor2;
+        text: {
+            align: justify;
+        }
+    }
+    picture{
+            img{
+                margin: 30px auto;
+            }
+    }
+    h6{
+        color: $myColor2;
+        font: {
+            weight: $myFontWeight;
+            size: 16px;
+            family: $myFontFamilyP;
+        }
+    }
+    ul{
+        li{
+            
+        }
     }
 
 }
