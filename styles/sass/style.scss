@@ -25,7 +25,9 @@ div.main-content .next-content .box2 h5{
     }
 
 }
-div.main-content .next-content .box2{
+div.main-content .next-content{
+
+ .box2{
     p{
         font: {
             family:$myFontFamilyP;
@@ -53,12 +55,11 @@ div.main-content .next-content .box2{
         font: {
             weight: 500;
             family: $myFontFamilyP;
-            color: $myColor2;
-        }
-        line-height: 1;
-        li{
             
         }
+        color: $myColor2;
+        line-height: 1;
+       
         li::before {
             content: ".";
             color: $myColor3;
@@ -73,4 +74,22 @@ div.main-content .next-content .box2{
         }
     }
 
+  }
+  // for js test just
+  .box3{
+    // width: 100px;
+    margin: 40px;
+    height: auto;
+    padding: 50px;
+    background: {
+        color: rgb(223, 209, 133);
+    }
+    #js-test{
+        
+    }
 }
+}
+// for js test just
+
+     
+
