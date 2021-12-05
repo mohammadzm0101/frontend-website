@@ -21,6 +21,9 @@ z = text.concat(x);
 z = text.trim()
 z = numbers.split(',')
 console.log(z)
+// 
+
+
 
 
 
