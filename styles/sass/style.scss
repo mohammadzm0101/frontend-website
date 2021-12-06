@@ -1,95 +1,25 @@
+// form important color or other proprety in other sass file
 @import "variables";
 @import "important-1";
 
-div.main-content .next-content .box2 h4{
-    color:$myColor1;
-    font-family: $myFontFamilyE;
-    font-weight: $myFontWeight;
-}
-div.main-content .next-content .box2 h4 span{
-    font-size: 50px;
-}
-div.main-content .next-content .box2 h5{
-    font: {
-        family: $myFontFamilyP;
-    }
-    color: $myColor2;
-
-    span{
-        font: {
-            family:$myFontFamilyE;
-            size: $myFontSize1;
-            weight: $myFontWeight;
-        }
-
-    }
-
-}
-div.main-content .next-content{
-
- .box2{
-    p{
-        font: {
-            family:$myFontFamilyP;
-        }
-        color: $myColor2;
-        text: {
-            align: justify;
-        }
-    }
-    picture{
-            img{
-                margin: 30px auto;
-            }
-    }
-    h6{
-        color: $myColor2;
-        font: {
-            weight: $myFontWeight;
-            size: 16px;
-            family: $myFontFamilyP;
-        }
-        line-height: 3;
-    }
-    ul{
-        font: {
-            weight: 500;
-            family: $myFontFamilyP;
-            
-        }
-        color: $myColor2;
-        line-height: 1;
-       
-        li::before {
-            content: ".";
-            color: $myColor3;
-            font-weight: $myFontWeight;
-            display: inline-block;
-            width: 10px;
-            margin-left: 7px;
-            font: {
-                size: 40px;
-            }
-            
-        }
-    }
-
-  }
-  // for js test just
-  .box3{
-    // width: 100px;
-    margin: 40px;
-    height: auto;
-    padding: 50px;
+header{
+    // grid parent element
+    display: grid;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
     background: {
-        color: rgb(223, 209, 133);
+        image: linear-gradient(to right, $myColor1, $myColor2);
     }
-    #js-test{
-        
+    // grid items
+    .white-cloud{
+        background: {
+            color: $myColor3;
+        }
+
     }
+    
 }
-}
-// for js test just
 
      
 
