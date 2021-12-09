@@ -5,16 +5,38 @@
 header{
     // grid parent element
     display: grid;
+
+    grid-template-columns: auto;
+    grid-template-rows: 65%;
     width: 100%;
     height: 600px;
     overflow: hidden;
     background: {
         image: linear-gradient(to right, $myColor1, $myColor2);
     }
+    .blue-sky{
+        background: {
+            color: none;
+        }
+    }
     // grid items
     .white-cloud{
         background: {
-            color: $myColor3;
+            color: red;
+           
+        }
+        svg{
+            background: {
+                color: $myColor3;
+            }
+            height: 90%;
+            width: 100%;
+            circle{
+            
+            
+                
+            
+            }
         }
 
     }

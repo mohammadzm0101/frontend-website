@@ -1,8 +1,11 @@
-let myName = "mehrdad ok ",
-    yourName = 'mehrshad'
-    ourName = 'rokhdad'
+let name = 'fritake';
+name = undefined;
+name = null
+console.log(name)
 
-console.log(myName, yourName, ourName)
+
+
+
 
 
 
