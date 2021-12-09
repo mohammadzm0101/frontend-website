@@ -1,15 +1,17 @@
-/* grid parent */
 header {
-  display: -ms-grid;
   display: grid;
   width: 100%;
   height: 600px;
   overflow: hidden;
-  background-image: -webkit-gradient(linear, left top, right top, from(#4f41b8), to(#0a9ec0));
-  background-image: linear-gradient(to right, #4f41b8, #0a9ec0);
+  background-image: linear-gradient(to right, #4f41b8, #0a9ec0)
 }
-/* grid items in header */
+
 header .white-cloud {
-  background-color: white;
+  background-color: #fff
 }
-/*# sourceMappingURL=style.css.map */
+
+.main .jsprojects {
+  background-color: #ffebcd;
+  width: 100%;
+  height: 500px
+}
