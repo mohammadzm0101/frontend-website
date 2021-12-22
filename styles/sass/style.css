@@ -1,47 +1,38 @@
-header .header {
+header {
     position: relative;
-    text-align: center;
+
     background: linear-gradient(60deg, #543ab7 0%, #00acc1 100%);
-    color: #fff
+    /* color: #fff; */
 }
 
-header .logo {
-    width: 50px;
-    fill: #fff;
-    padding-right: 15px;
-    display: inline-block;
-    vertical-align: middle
-}
 
-header .inner-header {
-    height: 30vh;
+header .blue-sky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
     width: 100%;
     margin: 0;
     padding: 0
 }
 
-header .flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center
-}
-
-header .waves {
+header div svg.waves {
     position: relative;
     width: 100%;
-    height: 15vh;
+    height: 80px;
     margin-bottom: -7px;
-    min-height: 100px;
-    max-height: 150px
+    /* for safari  */
+    min-height: 50px;
+    max-height: 120px
 }
 
-header .content {
-    position: relative;
-    height: 20vh;
-    text-align: center;
-    background-color: #fff
-}
+/* header .content { */
+    /* position: relative; */
+    /* height: 2000vh; */
+    /* text-align: end; */
+    /* background-color: white; */
+/* } */
 
 header .parallax>use {
     -webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
@@ -102,7 +93,7 @@ header .parallax>use:nth-child(4) {
         min-height: 40px
     }
 
-    header .content {
-        height: 30vh
-    }
+    /* header .content { */
+        /* height: 300vh */
+    /* } */
 }
