@@ -1,7 +1,6 @@
 
 gsap.registerPlugin(ScrollTrigger);
 let speed = 100;
-
 /*  SCENE 1 */
 let scene1 = gsap.timeline();
 ScrollTrigger.create({
@@ -227,3 +226,4 @@ else {
     fsEnter.innerHTML = "Go Fullscreen";
 }
 });
+// t L
