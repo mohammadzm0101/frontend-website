@@ -1,16 +1,24 @@
 header {
-    position: relative;
-    text-align: center;
-    background: linear-gradient(60deg, #543ab7 0%, #00acc1 100%);
-    color: #fff;
-    border-radius: 5px
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
-header .blue-sky {
+body header .blue-sky {
     height: 200px
 }
 
-header .logo {
+body header .logo {
     width: 50px;
     fill: #fff;
     padding-right: 15px;
@@ -32,7 +40,7 @@ header .flex {
     text-align: center
 }
 
-header .waves {
+body header .waves {
     position: relative;
     width: 100%;
     height: 500px;
@@ -41,7 +49,7 @@ header .waves {
     max-height: 150px
 }
 
-header .content {
+body header .content {
     position: relative;
     height: 20vh;
     text-align: center;
@@ -60,7 +68,7 @@ header .parallax>use:nth-child(1) {
     animation-duration: 7s
 }
 
-header .parallax>use:nth-child(2) {
+body header .parallax>use:nth-child(2) {
     -webkit-animation-delay: -3s;
     animation-delay: -3s;
     -webkit-animation-duration: 10s;
@@ -102,7 +110,7 @@ header .parallax>use:nth-child(4) {
 }
 
 @media(max-width: 768px) {
-    header .waves {
+    body header .waves {
         height: 40px;
         min-height: 40px
     }
